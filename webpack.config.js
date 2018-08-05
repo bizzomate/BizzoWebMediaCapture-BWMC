@@ -11,9 +11,8 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 3000,
-    color: true,
     historyApiFallback: true,
-    hot: true,
+    //hot: true,
     index: "index.html",
     open: true,
     watchContentBase: true
