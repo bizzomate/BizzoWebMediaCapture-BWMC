@@ -7,6 +7,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 3000,
+    color: true,
+    historyApiFallback: true,
+    hot: true,
+    index: "index.html",
+    open: true,
+    watchContentBase: true
+  },
   devtool: "cheap-module-eval-source-map",
   module: {
     rules: [
