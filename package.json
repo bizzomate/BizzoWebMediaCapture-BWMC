@@ -1,0 +1,31 @@
+{
+  "name": "bizzowebmediacapture-bwmc",
+  "version": "1.0.0",
+  "description": "A wrapper for Web Media Capture API to be used as lib for Mendix Widgets ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizzomate/BizzoWebMediaCapture-BWMC.git"
+  },
+  "keywords": [
+    "Web",
+    "Media",
+    "Capture",
+    "Audio",
+    "Input",
+    "Output",
+    "I/O",
+    "Camera",
+    "Microphone",
+    "Video"
+  ],
+  "author": "Osama Najjar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bizzomate/BizzoWebMediaCapture-BWMC/issues"
+  },
+  "homepage": "https://github.com/bizzomate/BizzoWebMediaCapture-BWMC#readme"
+}
